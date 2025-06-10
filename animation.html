@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animations</title>
+    <style>
+        #one{
+        /*animation-name: my animation;*/
+        /*animation-duration:3s;*/
+        /*animation-iteration-count:4;*/
+        animation: my animation 3s infinite;
+        }
+        #two{
+        animation: slidein 5s infinite;
+        }
+        #three{
+        background-color: grey;
+        width: 200px;
+        height: 200px;
+        animation-name:spin;
+        animation-duration:2s;
+        animation-iteration-count: infinite;
+}
+        #btn{
+        background-color:mediumpurple;
+        padding:10px 20px;
+        color:ghostwhite;
+        border: none;
+        transition:background-color 0.4s ease,transform 0.4s ease;
+        }
+        #btn: hover{
+        background-color:paleyellow;
+        }
+        @keyframes spin{
+        0%{transform:rotate(0deg);
+        background-color: green}
+        50%{transform:rotate(180deg);}
+        100%{transform:rotate(360deg);
+        background-color:aquamarine}
+        }
+        @keyframes slide in{
+        0%{transform:rotate(0deg);
+        color:lime}
+        100%(transform:translateX(600px);
+        color:yellow}
+        }
+        @keyframes Grim{
+        0%{color:blue;}
+        50%{color:red;}
+        100%{color:yellow;}
+        }
+    </style>
+</head>
+<body>
+<h1 id="two"> To Infinity and Beyond</h1>
+<p id="three"> This paragraph should appear animated Buzz</p>
+<div id="one">
+    <p>Andy likes to play with adult toys now</p>
+</div>
+<button id="btn"> Click Here!</button>
+</body>
+</html>
