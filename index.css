@@ -1,0 +1,87 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    color:red;
+    font-weight: bold;
+}
+p{
+    Text-align: left;
+    font-family: "Droid Sans Mono";
+    color:white;
+}
+h2{
+    color: green;
+
+}
+h3{
+    color: yellow;
+}
+body {
+    background-color: silver;
+    font-family: MathJax_SansSerif;
+    line-height: 1.6;
+    font-size: 25px;
+}
+.logo{
+    height: 50px;
+    width: 2500px;
+    border-radius:50px;
+}
+#companyname{
+    color: chartreuse;
+    font-size: 100px;
+}
+header{
+    background-color: grey;
+}
+footer{
+background-color: yellow;
+color:black;
+padding: 20px;
+}
+.logoarea{
+display: flex;
+Align-items: center;
+gap:20px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav{
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background: orange;
+}
+strong{
+    color:black;
+}
+.hero{
+    color: white;
+    text-align: center;
+    padding:80px 30px;
+    background-color: darkslateblue;
+}
+.herocontent{
+    background-color: burlywood;
+    padding:40px;
+    border-radius:50px;
+}
+
+
+
+
+
